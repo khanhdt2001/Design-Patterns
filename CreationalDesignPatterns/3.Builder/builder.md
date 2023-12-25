@@ -19,3 +19,5 @@ The director class defines the order in which to execute the building steps, whi
 implementation for those steps.
 
 ![img_1.png](img_1.png)
+
+**Builder** focuses on constructing complex objects step by step. Abstract Factory specializes in creating families of related objects. Abstract Factory returns the product immediately, whereas Builder lets you run some additional construction steps before fetching the product.
