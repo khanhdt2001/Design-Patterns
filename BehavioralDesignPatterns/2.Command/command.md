@@ -5,3 +5,11 @@ Imagine that you’re working on a new text-editor app. Your current task is to 
 
 ## Solution 
 The most common example: a layer for the graphical user interface and another layer for the business logic. The GUI layer is responsible for rendering a beautiful picture on the screen, capturing any input and showing results of what the user and the app are doing. However, when it comes to doing something important, like calculating the trajectory of the moon or composing an annual report, the GUI layer delegates the work to the underlying layer of business logic.
+![Alt text](image.png)
+The Command pattern suggests that GUI objects shouldn’t send these requests directly. Instead, you should extract all of the request details, such as the object being called, the name of the method and the list of arguments into a separate command class with a single method that triggers this request.
+![Alt text](image-1.png)
+
+## Goal 
+- Use the Command pattern when you want to parametrize objects with operations.
+- Use the Command pattern when you want to queue operations, schedule their execution, or execute them remotely.
+-  Use the Command pattern when you want to implement reversible operations.
