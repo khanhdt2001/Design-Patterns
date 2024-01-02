@@ -14,3 +14,6 @@ In addition to implementing the algorithm itself, an iterator object encapsulate
 
 ## Goal
 Use the Iterator pattern when your collection has a complex data structure under the hood, but you want to hide its complexity from clients 
+
+## note
+From my point of view , this design parttern just like **factory method**
